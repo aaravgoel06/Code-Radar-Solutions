@@ -8,7 +8,7 @@ int main() {
     // printf("%s", welcome());
     float number ;
     scanf("%f",&number);
-    printf("%f\.2f",number);
+    printf("%.2f\n",number);
 
     return 0;
 }
