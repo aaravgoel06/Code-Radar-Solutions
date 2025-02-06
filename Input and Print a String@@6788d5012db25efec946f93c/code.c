@@ -7,8 +7,8 @@
 int main() {
     // printf("%s", welcome());
     char input[];
-    scanf("%s",&input);
-    printf("%s",input);
+    scanf("%s",input);
+    printf("You entered: %s",input);
 
     return 0;
 }
