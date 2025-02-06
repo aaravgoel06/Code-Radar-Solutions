@@ -7,7 +7,7 @@
 int main() {
     // printf("%s", welcome());
     char input;
-    scanf("%c",input);
+    scanf("%c",&input);
     printf("You entered: %c",number);
     return 0;
 }
