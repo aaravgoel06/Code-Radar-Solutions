@@ -5,11 +5,9 @@
 // }
 
 int main() {
-    // printf("%s", welcome());
-    int n;
-    scanf("%d", &n);
-    for(int i = n; i > 0; i--){
-        for(int j = 1; j<= i; j++ ){
+    int N;
+    for(int i=N,i<=N,i--){
+        for(int j=1,j<=i,j++){
             printf("* ");
         }
         printf("\n");
