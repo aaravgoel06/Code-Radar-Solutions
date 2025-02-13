@@ -1,7 +1,7 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-    int a,;
+    int a;
     scanf("%d",&a);
     int lsb = a & 1 ;
     if(lsb==1){
