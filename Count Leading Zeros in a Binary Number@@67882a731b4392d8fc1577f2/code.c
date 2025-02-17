@@ -8,7 +8,7 @@ int main(){
         if(a&1==0){
             a>>1;
         }else(
-            printf("%d",32-i)
+            printf("%d",32-i);
         )
     }
     return 0;
