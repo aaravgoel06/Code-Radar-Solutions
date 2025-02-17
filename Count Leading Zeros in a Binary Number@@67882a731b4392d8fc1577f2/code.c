@@ -6,7 +6,7 @@ int main(){
     int count=0;
     int total=32;
     for(int i=0;total>0;total--){
-        if(a&1==0){
+        if((a&1)==0){
             
         count+=1;
          a=a>>1;
