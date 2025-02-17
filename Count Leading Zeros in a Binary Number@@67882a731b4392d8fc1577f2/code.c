@@ -7,9 +7,9 @@ int main(){
     for(int i=0;a>0;i++){
         if(a&1==0){
             a>>1;
-            count+=1
+            count+=1;
         }else(
-            count+=0
+            count+=0;
         )
         printf("%d",count);
     }
