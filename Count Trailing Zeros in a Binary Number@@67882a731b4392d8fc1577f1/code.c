@@ -10,8 +10,8 @@ int main(){
             
         count+=1;
          a=a>>1;
-        }else{
-            count=0;
+        }else if((a&1)==1){
+            break;
         }
         
     }printf("%d",count);
