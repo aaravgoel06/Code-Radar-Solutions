@@ -4,7 +4,8 @@
 int main(){
     int a,b;
     scanf("%d",&a,&b);
-    if ((a>>b)&1==1){
+    int check=(a>>b) & 1;
+    if ((check==1){
         printf("1");
     } else {
         printf("0");
