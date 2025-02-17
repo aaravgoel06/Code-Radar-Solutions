@@ -8,9 +8,9 @@ int main(){
         if(a&1==0){
             a>>1;
             count+=1;
-        }else(
+        }else{
             count+=0;
-        )
+        }
         printf("%d",count);
     }
     return 0;
