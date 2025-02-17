@@ -12,7 +12,6 @@ int main(){
          a=a>>1;
         }else{
             count=0;
-            a=a>>1;
         }
         
     }printf("%d",count);
