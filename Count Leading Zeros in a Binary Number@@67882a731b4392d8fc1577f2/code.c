@@ -7,9 +7,11 @@ int main(){
     for(int i=0;a>0;i++){
         if(a&1==0){
             a>>1;
+            count+=1
         }else(
-            printf("%d",32-i);
+            count+=0
         )
+        printf("%d",count);
     }
     return 0;
 }
