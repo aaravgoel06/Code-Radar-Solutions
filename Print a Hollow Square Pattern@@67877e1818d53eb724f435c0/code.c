@@ -8,7 +8,7 @@ int main(){
                 // printf("*");
             for(int j=1;j<=n;j++){
             printf("*");}
-            } if else(j==1 && j==n){
+            } else if(j==1 && j==n){
              printf("*");
             }else{
                 printf(" ");
