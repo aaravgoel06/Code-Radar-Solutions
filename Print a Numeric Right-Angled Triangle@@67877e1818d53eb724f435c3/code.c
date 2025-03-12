@@ -1,6 +1,6 @@
 // Your code here...
 #include<stdio.h> 
-int main(char *args) {
+int main() {
     int n;
     scanf("%d", n);
 
