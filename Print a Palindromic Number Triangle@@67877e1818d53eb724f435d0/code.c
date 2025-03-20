@@ -10,7 +10,7 @@ int main(){
         for(int k=1;k<=i;k++){
             printf("%d",k);
         }
-        for(int j=i;j>=1;j--){
+        for(int j=i;j>1;j--){
             printf("%d",j);
         }
      printf("\n");
