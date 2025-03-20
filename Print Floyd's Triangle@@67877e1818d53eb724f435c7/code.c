@@ -9,7 +9,7 @@ int main(){
           for(int k=1;k<=j;k++){
             v++;
         }
-        printf("%d",v);
+        printf("%d ",v);
             }
         
         printf("\n");
