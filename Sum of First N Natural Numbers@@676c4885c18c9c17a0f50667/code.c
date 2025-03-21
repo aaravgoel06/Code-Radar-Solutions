@@ -2,11 +2,10 @@
 #include <stdio.h>
 int main(){
     int n;
-    int count=0;
-    for(int i=1;i<=n;i++){
-        count=count+i;
-         printf("%d",count);
+    
+    for(int count=0;count<=n;count++){
+        count++;
     }
-    // printf("%d",count);
+    printf("%d",count);
     return 0;
 }
