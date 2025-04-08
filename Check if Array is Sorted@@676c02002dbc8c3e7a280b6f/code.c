@@ -10,13 +10,13 @@ int main (){
     for(int i=0;i<n;i++){
         if(arr[0+i]<arr[1+i]){
             continue;
-        }if else{
+        } else{
             break;
             prinf("Not sorted");
-        }else{
-            printf("Sorted");
         }
+        
 
     }
+    printf("Sorted");
     return 0;
 }
