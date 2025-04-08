@@ -17,9 +17,9 @@ int main (){
         }else if(i==(n-1) && arr[i]>arr[i-1]){
             printf("%d",arr[n-1]);
             break;
-        }
-        printf("-1");
+        }else{
+        printf("-1");}
     }
-    printf("-1");
+   
     return 0;
 }
