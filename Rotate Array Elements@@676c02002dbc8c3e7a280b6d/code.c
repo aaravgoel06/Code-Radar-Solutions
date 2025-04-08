@@ -9,9 +9,12 @@ int main (){
     }
     int k;
     scanf("%d",&k);
-   
-        printf("%d",&arr[0+k]);
+    k=k%n;
+        for(int i=0;i<n;i++){
+             printf("%d",&arr[i+k]%n);
     
+        }
+       
     
 
     return 0;
