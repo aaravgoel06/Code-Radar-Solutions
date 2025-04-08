@@ -8,10 +8,10 @@ int main (){
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<n;i++){
-        if(arr[0]>arr[1]){
+        if(i==0 & arr[0]>arr[1]){
             printf("%d",arr[0]);
             break;
-        }else if(i<=1 && arr[i]>arr[1+i] && arr[i]>arr[i-1]){
+        }else if(i>=1 && arr[i]>arr[1+i] && arr[i]>arr[i-1]){
             printf("%d",arr[i]);
             break;
         }else{
