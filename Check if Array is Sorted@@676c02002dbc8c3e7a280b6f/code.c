@@ -9,8 +9,8 @@ int main (){
     }
     for(int i=0;i<n;i++){
         if(arr[0+i]>arr[1+i]){
-            break;
              printf("Not sorted");
+             break;
         } else{
            printf("Sorted");
            break;
