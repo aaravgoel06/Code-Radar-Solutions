@@ -8,11 +8,11 @@ int main (){
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<n;i++){
-        if(arr[0+i]<arr[1+i]){
-            continue;
-        } else{
+        if(arr[0+i]>arr[1+i]){
             break;
-            printf("Not sorted");
+             printf("Not sorted");
+        } else{
+           printf("Sorted");
         }
         
 
