@@ -11,7 +11,7 @@ int main (){
         if(arr[0]>arr[1]){
             printf("%d",arr[0]);
             break;
-        }else if(arr[0+i]<arr[1+i] && arr[1+i]>arr[2+i]){
+        }else if(i<1 && arr[i]<arr[1+i] && arr[i]>arr[i-1]){
             printf("%d",arr[1+i]);
             break;
         }else{
