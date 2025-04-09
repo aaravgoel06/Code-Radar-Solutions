@@ -17,7 +17,7 @@ int main (){
             }
           
         }
-        printf(arr[n-2]);
-    }
+        
+    }printf(arr[n-2]);
     return 0;
 }
