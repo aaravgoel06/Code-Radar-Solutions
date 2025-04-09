@@ -14,10 +14,7 @@ int main (){
                 int temp=arr[j];
                 arr[j]=arr[j+1];
                 arr[j+1]=temp;
-            }else{
-                printf("-1");
             }
-          
         }
         
     }printf("%d",arr[n-2]);
