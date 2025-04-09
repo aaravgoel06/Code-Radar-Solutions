@@ -1,7 +1,7 @@
 // Your code here...
 #include <stdio.h>
 int main (){
-    int n;
+    int n,equal=0;
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++){
@@ -17,12 +17,17 @@ int main (){
                 arr[j+1]=temp;
             }
            }else{
-            printf("-1");
+            equal=1;
            }
             
 
         }
         
-    }printf("%d",arr[n-2]);
+    }
+    if(equal==0){printf("%d",arr[n-2]);}
+
+    else{
+        printf("-1");
+    }
     return 0;
 }
