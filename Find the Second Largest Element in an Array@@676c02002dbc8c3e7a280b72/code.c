@@ -29,10 +29,10 @@ int main (){
         }
         
     }
-    if(equal==0){printf("-1");}
+    if(equal==1){printf("%d",arr[n-2]);}
 
     else{
-       printf("%d",arr[n-2]);
+       printf("-1");
 
     }
     return 0;
